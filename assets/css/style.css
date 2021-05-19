@@ -221,54 +221,6 @@ footer {
 	filter: invert(100%) sepia(0%) saturate(2388%) hue-rotate(3deg) brightness(116%) contrast(105%);
 }
 
-.portfolio__btn {
-	margin-top: 2rem;
-}
-
-.portfolio__btn a {
-	padding: 1.3rem 2.5rem;
-	font-weight: 600;
-	background: var(--color-2);
-	color: var(--color-3);
-	font-size: var(--btn);
-	-webkit-transition: all 0.4s linear;
-	-o-transition: all 0.4s linear;
-	transition: all 0.4s linear;
-	position: relative;
-	overflow: hidden;
-	text-transform: uppercase;
-	border-radius: .2rem;
-	z-index: 9;
-}
-
-.portfolio__btn a::after {
-	content: '';
-	background: var(--color-1);
-	position: absolute;
-	left: -35%;
-	top: 0;
-	z-index: -9;
-	width: 0%;
-	height: 100%;
-	-webkit-transform: skew(45deg);
-	-ms-transform: skew(45deg);
-	transform: skew(45deg);
-	-webkit-transition: all 0.4s linear;
-	-o-transition: all 0.4s linear;
-	transition: all 0.4s linear;
-}
-
-.portfolio__btn a:hover::after {
-	width: 170%;
-}
-
-.portfolio__btn a:hover {
-	-webkit-transform: translateY(-.5rem);
-	-ms-transform: translateY(-.5rem);
-	transform: translateY(-.5rem);
-	color: var(--color-3);
-}
-
 /*===============================*/
 /*-- END PORTFOLIO SECTION --*/
 /*===============================*/
